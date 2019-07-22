@@ -1,4 +1,4 @@
-Role Name
+Apache Install via Yum
 =========
 
 This role will install Apache on RPM based distributions (RHEL, CentOS, etc) using yum.
