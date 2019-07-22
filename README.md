@@ -11,6 +11,7 @@ apache_server_admin - set in defaults/main.yml
 Example Playbook
 ----------------
 
+```
 ---
 - hosts: all
   become: yes
@@ -18,6 +19,7 @@ Example Playbook
     - apache
   vars: 
     apache_server_admin: your_email@domain.com
+```
 
 License
 -------
