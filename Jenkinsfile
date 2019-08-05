@@ -10,7 +10,7 @@ pipeline {
       parallel {
         stage('log tail') {
           steps {
-            sh 'tail /var/log/secure'
+            sh 'sudo tail /var/log/secure'
           }
         }
         stage('log tail test') {
