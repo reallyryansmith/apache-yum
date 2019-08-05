@@ -4,4 +4,4 @@
   roles:
     - apache
   vars: 
-    apache_server_admin: stosh@example.com
+    apache_server_admin: insert@address.here
