@@ -6,7 +6,7 @@ This role will install Apache on RPM based distributions (RHEL, CentOS, etc) usi
 Role Variables
 --------------
 
-apache_server_admin - set in defaults/main.yml
+apache_server_admin - set in defaults/main.yml (replaces "ServerAdmin {{ apache_server_admin }}" line in httpd conf template, templates/httpd.conf.j2)
 
 Example Playbook
 ----------------
